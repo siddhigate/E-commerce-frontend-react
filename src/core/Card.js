@@ -62,9 +62,7 @@ const Card = ({
       <div className="card-body">
         {getARedirect(redirect)}
         <ImageHelper product={product} />
-        <p className="lead bg-success font-weight-normal text-wrap">
-          {cardDescription}
-        </p>
+        <p className="lead  font-weight-normal text-wrap">{cardDescription}</p>
         <p className="btn btn-success rounded  btn-sm px-4">Rs. {cardPrice}</p>
         <div className="row">
           <div className="col-12">{showAddToCart(addToCart)}</div>

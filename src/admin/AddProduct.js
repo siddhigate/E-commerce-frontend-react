@@ -218,7 +218,6 @@ const AddProduct = () => {
           {successMessage()}
           {errorMessage()}
           {createProductForm()}
-          {performRedirect()}
         </div>
       </div>
     </Base>

@@ -1,2 +1,2 @@
-# e-commerce-react
-Created with CodeSandbox
+# E-commerce app
+
